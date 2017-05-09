@@ -1,6 +1,6 @@
-# vue-todo
+# vuex-todo
 
-> A Vue.js project
+> A simple todo app demonstrating use of Vue, Vuex, routing, SSR and unit test
 
 ## Build Setup
 
@@ -9,7 +9,7 @@
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm start
 
 # build for production with minification
 npm run build
@@ -27,4 +27,4 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, checkout the [Vue.js guide](https://vuejs.org/v2/guide/) and [docs for Vuex](https://vuex.vuejs.org/en/).
