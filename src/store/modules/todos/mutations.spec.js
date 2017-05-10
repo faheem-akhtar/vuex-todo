@@ -1,5 +1,4 @@
 import { mutations } from './mutations'
-// import * as actions from './actions'
 
 describe('todos mutations', () => {
 

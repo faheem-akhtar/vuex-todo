@@ -6,7 +6,7 @@ const state = {
   items: []
 }
 
-const getters = {
+export const getters = {
   getFilter (state, getters, rootState) {
     return rootState.route.params.filter || 'all'
   }
