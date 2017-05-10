@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
+    "server": "node server/index.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js",
     "unit.bkup": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -15,10 +16,12 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "express": "^4.15.2",
     "node-uuid": "^1.4.8",
-    "vue": "^2.2.6",
+    "vue": "^2.3.3",
     "vue-material": "^0.7.1",
     "vue-router": "^2.3.1",
+    "vue-server-renderer": "^2.3.3",
     "vuex": "^2.3.1",
     "vuex-router-sync": "^4.1.2"
   },
