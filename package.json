@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "express": "^4.15.2",
+    "fs": "0.0.1-security",
     "node-uuid": "^1.4.8",
     "vue": "^2.3.3",
     "vue-material": "^0.7.1",
