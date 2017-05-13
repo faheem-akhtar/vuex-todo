@@ -1,4 +1,5 @@
 var utils = require('./utils')
+const util = require('util')
 var webpack = require('webpack')
 var config = require('../config')
 var merge = require('webpack-merge')

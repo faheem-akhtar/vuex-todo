@@ -25,6 +25,12 @@ module.exports = {
       '@': resolve('src')
     }
   },
+  // sassLoader: {
+  //   includePaths: [path.resolve(__dirname, '../node_modules')]
+  // },
+  // resolveLoader: {
+  //   fallback: [path.join(__dirname, '../node_modules')]
+  // },
   module: {
     rules: [
       {

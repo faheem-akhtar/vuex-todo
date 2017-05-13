@@ -13,6 +13,9 @@ import configureStore from './store'
 
 // Vue.use(VueMaterial)
 
+import VueMaterialDesign from './material'
+Vue.use(VueMaterialDesign)
+
 Vue.config.productionTip = false
 
 const store = configureStore()

@@ -1,7 +1,9 @@
 <template>
   <div>
+    <!--
     <TodoList />
     <AddTodo />
+    -->
   </div>
 </template>
 
