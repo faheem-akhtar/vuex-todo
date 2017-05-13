@@ -15,3 +15,4 @@ testsContext.keys().forEach(testsContext)
 // require all src files except main.js and .spec.js
 const srcContext = require.context('../../src', true, /^\.\/(?!((main)|(.*\.spec))(\.js)?$)/)
 srcContext.keys().forEach(srcContext)
+
