@@ -8,7 +8,7 @@ const state = {
 
 export const getters = {
   getFilter (state, getters, rootState) {
-    return rootState.route.params.filter || 'all'
+    return rootState.route ? (rootState.route.params.filter || 'all') : 'all'
   }
 }
 
